@@ -29,7 +29,7 @@ header {
 header {
   padding-top: 10px;
   padding-right: 15px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-left: 25px;
 }
 
@@ -105,9 +105,23 @@ section {
   height: 600px;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: relative; 
 
 }
+<div class="hero hero-secondary"></div>
+.hero {
+  margin: 20px;
+  font-size: 20px;
+  background-color: white;
+  color: blue;
+}
+
+/* these two colors will override the ones above in .hero */
+.hero-secondary {
+  background-color: black;
+  color: red;
+}
+
 /* Hero Style End */
 
 .hero-form {
@@ -173,7 +187,7 @@ section {
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
-  width: 80%;
+  width: 100%;
   font-size: 20px;
 }
 
@@ -320,6 +334,11 @@ contact-info h3 {
 }
 
 /* REACH OUT STYLES END */
+
+
+
+
+
 
 
 
